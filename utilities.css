@@ -1,0 +1,16 @@
+.border{
+    border: 2px solid red;
+}
+.flex{
+    display: flex;
+}
+.justify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
