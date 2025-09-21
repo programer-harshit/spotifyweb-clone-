@@ -22,7 +22,7 @@
     position: relative;
     width: 100vw;
     height: 60px;
-    /* background: #181818; */
+    background: rgb(0, 0, 0);
 }
 
 .logo {
@@ -86,3 +86,65 @@
     height: 100%;
     filter: invert(1);
 }
+
+.btn button{
+    position: absolute;
+    left: 1000px;
+    top: 15%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 70px;
+    background-color: white;
+    color: black;
+    font-size: 15px;    
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.explore-premium-button:hover {
+    transform: scale(1.05); /* slightly grow the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    /* subtle shadow for the pop effect */
+}
+
+.install button{
+    
+   position: absolute;
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 0px 4px 4px 3px;
+    right: 208px;
+    top: 37%;
+    font-size: 14px;
+    background: #fff;
+    font-weight: 500;
+    gap: 2px;
+    box-shadow: none;
+    color: rgb(179,179, 179);
+    background-color: black;
+
+}
+.bell-icon{
+  position: absolute;
+    /* background-color:non; */
+    /* left: 100px; */
+    right: 0;
+    background: none;  
+    box-shadow: none;
+    /* fill: black; */
+    right: 150px;
+    top: 28%;
+    fill: #b3b3b3;
+    border: none;
+    outline: none;
+    filter: invert(1);
+    /* padding: 0; */
+}
+.friends-logo{
+   position: absolute;
+    right: 109px;
+    top: 28%;
+    fill: #b3b3b3;
+    filter: invert(1);
+}
+
